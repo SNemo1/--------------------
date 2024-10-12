@@ -36,7 +36,7 @@ header {
     font-weight: 700;
 }
 
-a:hover {
+.def:hover {
     color: #FFB400;
     transition: 0.15s;
 }
@@ -85,5 +85,4 @@ a:hover {
 
 .invinsible-character {
     opacity: 0;
-    background-color: #FFB400;
 }
