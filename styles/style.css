@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Arial;
+    
 }
 
 .navi-img {
@@ -34,6 +35,7 @@ header {
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 700;
+    transition: 0.3s, color 0.3s;
 }
 
 .def:hover {
@@ -68,6 +70,7 @@ header {
 
 .bc-image {
     width: 100%;
+    height: 100%;
     filter: brightness(25%);
 }
 
@@ -83,6 +86,160 @@ header {
     margin-right: 20px;
 }
 
-.invinsible-character {
-    opacity: 0;
+.catalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+h1::after {
+    content: "";
+    display: block;
+    width: 50px; 
+    height: 4px; 
+    background-color: #FFCC00; 
+    margin: 10px auto 0; 
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 0 30px 0 30px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 51px;
+    height: 350px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    width: 200px;
+    height: auto;
+}
+
+.ecscavator-image {
+    width: 300px;
+    height: auto;
+}
+
+.description {
+    max-width: 400px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.description p {
+    font-size: 18px;
+    color: #555;
+}
+
+.har a {
+    display: flex;    
+    margin-top: 50px;
+    margin-right: 230px;
+    background-color: white;
+    border: 2px solid #FFCC00; 
+    color: #333;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.har a:hover {
+    background-color: #FFCC00;
+}
+
+.catalog-two {
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+.item-bulldozer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 720px;
+    height: 372px;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.content-bulldozer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description {
+    max-width: 400px;
+    text-align: left;
+}
+
+.description p {
+    font-size: 18px;
+    color: #555;
+    
+}
+
+.har-two a {
+    display: flex;    
+    margin-top: 50px;
+    margin-right: 270px;
+    background-color: white;
+    border: 2px solid #FFCC00; 
+    color: #333;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s, color 0.3s;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.har-two a:hover {
+    background-color: #FFCC00;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #1F1F1F;
 }
