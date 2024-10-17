@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth Scroll Example</title>
+    <style>
+        /* Add some spacing so the scroll effect is visible */
+        body {
+            height: 2000px;
+        }
+
+        #target-section {
+            margin-top: 1000px; /* Position it far down to see the scroll */
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="scrollToSection()">Go to Section</button>
+
+    <h2 id="target-section">Target Section</h2>
+    <p>This is the section the button scrolls to.</p>
+
+    <script>
+        function scrollToSection() {
+            document.getElementById("target-section").scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    </script>
+
+</body>
+</html>

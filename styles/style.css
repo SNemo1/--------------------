@@ -29,7 +29,7 @@ header {
     /* background-color: lightcoral; */
 }
 
-.button {
+.button-div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,6 +43,7 @@ header {
     color: rgb(255, 255, 255);
     font-weight: 500;
     transition: 0.15s;
+    cursor: pointer;
 }
 
 .def:hover {
@@ -113,8 +114,10 @@ h1 {
     color: #333;
 }
 
-h2 {
+.product-title {
     margin-top: 0;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 h1::after {
