@@ -1,13 +1,22 @@
+/* Проблема при зменшенні сторінки (header): внизу
+з'являється горизонтальний "прокрут" + мініманізуй
+використання статичних розмірів, щоб потім
+було легше з перенесенням на телефон (зменшення 
+сторінки) */
+
+/* ВИКОРИСТАЙ EM, щоб шрифт зменшувався */
+
 body {
     margin: 0;
     font-family: "Rubik", sans-serif;
 }
 
+.navi-img-div {
+    margin-left: 50px;
+}
+
 .navi-img {
-    display: flex;
-    margin-left: 51px;
-    width: 120px;
-    height: 62px;
+    width: 100%;
     margin-top: 11px;
 }
 
@@ -15,8 +24,9 @@ header {
     background-color: #1F1F1F;
     display: flex;
     justify-content: space-between;
-    height: 83px;
+    height: 85px;
     width: 100%;
+    /* background-color: lightcoral; */
 }
 
 .button {
@@ -24,18 +34,15 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 20%;
-    font-size: 16px;
     margin-right: 30px;
-    text-decoration: none;
+    /* background-color: lightblue; */
 }
 
 .def {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 700;
-    transition: 0.3s, color 0.3s;
     font-weight: 500;
+    transition: 0.15s;
 }
 
 .def:hover {
@@ -44,10 +51,12 @@ header {
 }
 
 .opening-text-div {
-    width: 600px;
+    /* width: 600px; */
+    width: 40%;
     position: absolute;
-    top: 150px;
-    left: 100px;
+    top: 30%;
+    left: 7%;
+    /* background-color: lightblue; */
 }
 
 .opening-image-div {
@@ -56,7 +65,7 @@ header {
 
 .company-name {
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 45px;
     margin: 0;
 }
@@ -77,10 +86,12 @@ header {
 .company-name-div {
     display: flex;
     align-items: center;
+    width: 100%;
+    /* background-color: lightcoral; */
 }
 
 .line {
-    width: 10px;
+    width: 1.5%;
     height: 80px;
     background-color: #FFB400;
     margin-right: 20px;
@@ -116,7 +127,6 @@ h1::after {
 }
 
 .product {
-    background-color: #fff;
     border: 1px solid #ddd;
     padding: 0 0 0 30px;
     border-radius: 10px;
@@ -132,25 +142,28 @@ h1::after {
 .content {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .content img {
-    width: 450px;
+    /* width: 450px; */
+    width: 30%;
     height: auto;
 }
 
 .description {
-    max-width: 400px;
+    /* max-width: 400px; */
+    width: 50%;
     margin-left: 20px;
+    /* background-color: lightblue; */
 }
 
 .har a {
     display: flex;    
     justify-content: center;
     margin-top: 50px;
-    max-width: 120px;
+    width: 23%;
     margin-right: 230px;
     background-color: white;
     border: 2px solid #FFCC00; 
@@ -158,8 +171,8 @@ h1::after {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    font-weight: bold;
-    transition: 0.3s, color 0.3s;
+    font-weight: 500;
+    transition: 0.15s;
     text-decoration: none;
 }
 
@@ -203,10 +216,6 @@ h2 {
     justify-content: center;
 }
 
-.description {
-    max-width: 500px;
-}
-
 .description p {
     font-size: 22px;
     color: #555;
@@ -235,6 +244,7 @@ h2 {
 
 .why-us-text {
     font-size: 100px;
+    /* font-size: 6em; */
     font-weight: 700;
     color: #FFB400;
     margin: 0;
@@ -245,7 +255,7 @@ h2 {
     position: absolute;
     left: 3px;
     top: 18%;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 20px;
 }
 
