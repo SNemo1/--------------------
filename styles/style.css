@@ -373,3 +373,7 @@ footer {
 .contact-image-div div {
     margin-left: 15px;
 }
+
+a {
+    cursor: pointer;
+}

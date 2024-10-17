@@ -215,3 +215,7 @@ li {
     font-weight:700 ;
     margin-right: 5px;
 }
+
+a {
+    cursor: pointer;
+}
