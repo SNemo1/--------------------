@@ -23,7 +23,7 @@ header {
 .button-div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 20%;
     margin-right: 30px;
 }
@@ -42,7 +42,6 @@ header {
 }
 
 .opening-text-div {
-    /* width: 600px; */
     width: 40%;
     position: absolute;
     top: 30%;
@@ -138,13 +137,11 @@ h1::after {
 }
 
 .content img {
-    /* width: 450px; */
     width: 30%;
     height: auto;
 }
 
 .description {
-    /* max-width: 400px; */
     width: 50%;
     margin-left: 20px;
 }
@@ -369,7 +366,6 @@ a {
     }
 
     .navi-img-div {
-        /* background-color: lightcoral; */
         width: 100%;
         margin-left: 0;
         display: flex;
@@ -389,7 +385,6 @@ a {
         margin-right: 0;
         flex-direction: column;
         align-items: center;
-        /* background-color: lightblue; */
         margin-left: 0;
         padding-left: 0;
     }
