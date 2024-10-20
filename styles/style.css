@@ -457,13 +457,19 @@ a {
     }
 
     .first-row-div {
-        flex-direction: column;
+        /* flex-direction: column;
         height: 100%;
+        margin-bottom: 50px; */
+        flex-direction: column;
+        height: auto;
         margin-bottom: 50px;
+        align-items: center;
     }
 
     .first-row-div div {
-        width: 100%;
+        /* width: 100%; */
+        width: 90%;
+        text-align: center;
     }
 
     .why-us-text {
@@ -472,14 +478,20 @@ a {
     }
 
     .why-us-title {
-        font-size: 15px;
-        top: 20%;
+        /* font-size: 15px;
         left: 50%;
+        top: 30%;
         transform: translate(-50%, -50%);
+        margin: 0; */
+        font-size: 15px;
+        margin: 10px 0;
+        position: static;
     }
 
     .why-us-description {
+        /* text-align: center; */
         text-align: center;
+        font-size: 14px;
     }
 
     .advantages {

@@ -254,11 +254,10 @@ a {
 
     .button-div {
         width: 80%;
-        margin-right: 0;
         flex-direction: column;
         align-items: center;
-        margin-left: 0;
-        padding-left: 0;
+        margin: 0;
+        padding: 0;
     }
 
     .main {
@@ -269,11 +268,14 @@ a {
     .containar {
         flex-direction: column;
         align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     .info-section h1 {
         text-align: center;
         font-size: 18px;
+        margin-top: 15px;
     }
 
     .image-section {
@@ -301,6 +303,7 @@ a {
         flex-direction: column;
         align-items: center;
         margin: 0;
+        padding: 30px;
     }
 
     .contact-image-div div {
