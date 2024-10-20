@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function scrollPage(className) {
-    const element = document.querySelector(`.${className}`);
+    const element = document.querySelector(`${className}`);
     if (element) {
         element.scrollIntoView({
             behavior: "smooth"
