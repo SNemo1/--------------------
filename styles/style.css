@@ -260,15 +260,14 @@ footer {
     display: flex;
     padding: 20px;
     background-color: #1F1F1F;
-    width: 100%;
+    max-width: 1200px;
     margin-left: 20px;
 }
 
 .logo-section {
     display: flex;
     flex-direction: column;
-    width: 22%;
-    background-color: lightblue;
+    width: 30%;
 }
 
 .logo img {
