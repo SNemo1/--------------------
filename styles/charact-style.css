@@ -51,7 +51,7 @@ footer {
     display: flex;
     padding: 20px;
     background-color: #1F1F1F;
-    max-width: 100%;
+    width: 100%;
     margin-left: 20px;
     margin-top: 30px;
 }
@@ -60,7 +60,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 30%;
+    width: 22%;
 }
 
 .logo img {
@@ -308,7 +308,7 @@ a {
     }
 
     .contact-image-div div {
-        width: 100%;
+        width: 90%;
         margin-left: 0;
     }
 
